@@ -1,0 +1,52 @@
+<h1>Meu forms</h1>
+<form action="https://formspree.io/f/xdojogna" method="POST">
+
+    <p>
+        <label>Digite seu estado</label><br>
+        <input placeholder="Digite algo..." type="text" required="required" value="PR" name="estado"><br>    
+    </p>
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea name="mensagem" rows="10" cols="20" required placeholder="Digite algo..." ></textarea><br>
+    </p>
+
+    <p>
+        <label>Escolhas o esporte que voce quer competir</label>
+        <ul>
+            <li><input name="esportes" type="radio">Judo</li>
+            <li><input name="esportes" type="radio">Basquete</li>
+            <li><input name="esportes" type="radio">Futebol</li>
+            <li><input name="esportes" type="radio">Volei</li>
+        </ul>
+        
+    </p>
+
+    <p>
+        <label>Escolha suas cores favoritas</label>
+        <ul>
+            <li><input name="azul" type="checkbox">Azul</li>
+            <li><input name="vermelho" type="checkbox">Vermelho</li>
+            <li><input name="preto" type="checkbox">Preto</li>
+            <li><input name="amarelo" type="checkbox">Amarelo</li>
+        </ul>
+        
+    </p>
+
+    <p>
+        <label>Aula em que periodo</label><br>
+        <select name="turno">
+            <option>Manha</option>
+            <option>Tarde</option>
+            <option selected>Noite</option>
+            <option>Integral</option>
+            <option>EAD</option>
+        </select>
+    </p>
+
+    <p>
+        <input value="sim" name="termosDoContrato" type="checkbox"> Eu aceito os termos de uso do site
+    </p>
+
+    <!--Botão de enviar-->
+    <button type="submit">Enviar</button>
+</form>

@@ -1,0 +1,188 @@
+body{
+    margin-left: 15%; 
+    margin-right: 15%; 
+}
+
+.container{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#buttonCta{
+    background: rgb(41, 116, 255);
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; 
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px 10px 25px;
+}
+p.gray{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+#headerCta h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 45px;
+    color: black;
+}
+
+#headerImg{
+    margin-left: 42px;
+}
+
+#headerImg img{
+    width: 100%;
+}
+
+.headerClientText{
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+#Clients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headerLogo{
+    text-align: center;
+}
+
+h2.red{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgb(230, 51, 75);
+}
+h1.black{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+
+    margin-top: 0;
+    color: black;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+
+#services .textCenter h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#contact{
+    margin-top: 100px;
+}
+
+#contactForm{
+    margin-left: 75px;
+}
+
+
+#contactImg{
+    margin-right: 42px;
+}
+
+#contactImg img{
+    width: 100%;
+}
+
+#contactForm input{
+    background: white;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; 
+    border:0;
+    width: 70%;
+    padding: 15px 15px 15px 15px;
+}
+
+#contactForm button{
+    background: rgb(41, 116, 255);
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px; 
+    border:0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px 15px 30px;
+}
+
+#portFolioTitle{
+    margin-top: 150px;
+}
+
+.portfolioImg img{
+    width: 100%;
+}
+
+.portfolioImg{
+    padding: 20px;
+}
